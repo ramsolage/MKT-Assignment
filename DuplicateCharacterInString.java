@@ -10,6 +10,7 @@ public class DuplicateCharacterInString {
 			for(int j=i+1;j<ch.length;j++) {
 				if(ch[i]==ch[j]) {
 					System.out.println(ch[j]);
+					System.out.println("Ram");
 					
 				}
 			}
